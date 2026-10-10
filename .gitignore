@@ -68,9 +68,21 @@ supabase/.env
 
 # ---------- DO NOT IGNORE (sidecar docs intentionally tracked) ----------
 # !idea.md, !idea_inquiry.md, !_workspace/**, !spec/** are tracked by default
+# Marketing context and dated marketing notes are intentionally tracked
+!MARKETING_CONTEXT.md
+!maketing_notes/
+!maketing_notes/**
 # (no explicit rules added — none of the above patterns match them)
 .vercel
 .env*
 
 AGENTS.md
 RTK.md
+
+# 로컬 전용 — 에이전트 설정 · 작업 로그 · 아이디어 메모 · 중간 산출물 (공개 저장소에 두지 않는다, 2026-10-10)
+/.claude/
+/.codex/
+/_workspace/
+/notes/
+/idea.md
+/idea_inquiry.md

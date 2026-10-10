@@ -32,7 +32,7 @@ export default async function DashboardPage() {
       <main className="container max-w-4xl py-8 space-y-1">
         <h1 className="text-2xl font-semibold tracking-tight">Dashboard</h1>
         <p className="text-sm text-muted-foreground mb-6">
-          Paste an Upwork job page and we'll return a double-risk verdict + a
+          Paste an Upwork job page and we&apos;ll return a double-risk verdict + a
           tailored match score.
         </p>
         <div className="mb-6 flex gap-3 rounded-md border bg-muted/30 p-4 text-sm">

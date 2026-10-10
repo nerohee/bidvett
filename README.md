@@ -52,7 +52,7 @@ src/app/            화면과 API 라우트 (login · onboarding · dashboard ·
 src/lib/            risk-engine(정량 규칙) · extractors(공고 전처리) · openai · supabase · credits · dodo · rate-limit
 supabase/migrations 스키마 · RLS · 트리거와 RPC · 시스템 프롬프트 등 순서대로 적용하는 SQL
 tests/              API · Webhook 통합 시험
-spec/ · _workspace/ 기획 · 설계 · 시험 계획 문서
+spec/               기획 · 설계 문서 (PRD · 아키텍처 · API · DB · 화면 · 일정)
 ```
 
 ## 품질

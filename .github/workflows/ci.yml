@@ -12,8 +12,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NODE_VERSION: "20"
-  PNPM_VERSION: "9"
+  NODE_VERSION: "22"
+  PNPM_VERSION: "11"   # pnpm-workspace.yaml 의 allowBuilds 는 pnpm 11 설정 (pnpm 11 은 Node 22.13+)
   # Build-time env stubs so `next build` does not fail on missing public envs.
   # These are NOT real values — they only satisfy presence checks for the bundler.
   # Real Vercel deployments inject the actual values from Project Env Vars.
